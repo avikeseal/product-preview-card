@@ -6,6 +6,11 @@
     --clr-neutral-400: hsl(228, 12%, 48%);
     --clr-neutral-100: White: hsl(0, 0%, 100%);
 
+    --ff-acent: 'Fraunces', serif;
+    --ff-base: 'Montserrat', sans-serif;
+    
+    --fw-regular: 500;
+    --fw-bold: 700;
 }
 
 
@@ -49,4 +54,35 @@
   p, h1, h2, h3, h4, h5, h6 {
     overflow-wrap: break-word;
   }
- 
+
+  /*
+  general styling:
+  */
+body {
+    font-family: var(--ff-base);
+    font-weight: var(--fw-regular);
+    font-size: 0.875rem;
+    color: var(--clr-neutral-400);
+    background-color: var(--clr-secondary-200);
+
+    /* for this project only: */
+    /* often we do a min-height but we won't need
+    one in this case since the body already has a 100% height with html  */
+    display: grid;
+    /*if display and place-content don't work
+    we can set min-height to 100vh to give the body
+    a height that fills up the viewport*/
+    min-height: 100vh;
+    place-content: center;
+    margin: 1rem;
+ } 
+
+
+ .flex-group {
+    display: flex;
+ }
+
+ /*product styles: */
+ .product {
+
+ }
