@@ -2,6 +2,7 @@
     /* primary: */
 
     --darkCyan: hsl(158, 36%, 37%);
+    --deepAquamarine: hsl(158, 43%, 18%);
     --cream: hsl(30, 38%, 92%);
 
     /* neutral: */
@@ -106,6 +107,28 @@
     position: absolute;
     white-space: nowrap;
     width: 1px;
+  }
+
+  /* button: */
+  .button {
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+
+    border: 0;
+    border-radius: 0.5rem;
+    padding: 0.75em 1.5em;
+    background-color: var(--darkCyan);
+    color: var(--white);
+    font-weight: var(--fw-bold);
+    font-size: 0.925rem;
+  }
+
+  .button:is(:hover, :focus) {
+    background-color: var(--deepAquamarine);
   }
 
   /* product styles: */
