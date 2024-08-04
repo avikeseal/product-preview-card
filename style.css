@@ -8,6 +8,13 @@
     --verydarkblue: hsl(212, 21%, 14%);
     --darkgrayishblue: hsl(228, 12%, 48%);
     --white: hsl(0, 0%, 100%);
+
+    --ff-accent: 'Fraunces', serif;
+    --ff-base: 'Montserrat', sans-serif;
+
+    --fw-regular: 500;
+    --fw-bold: 700;
+
 }
 
 /*
