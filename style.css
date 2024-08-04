@@ -65,4 +65,34 @@
   #root, #__next {
     isolation: isolate;
   }*/
+
+  /* general styling: */
+  body {
+    font-family: var(--ff-base);
+    font-weight: var(--fw-regular);
+    font-size: 0.875rem;
+    color: var(--darkgrayishblue);
+    background-color: var(--cream);
+
+    display: grid;
+    place-content: center;
+    margin: 1rem;
+
+  }
+
+  /* utilities: */
+  /*creating a flex group so we can get the
+  two prices next to each other: */
+  .flex-group {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  /* product styles: */
+
+
+
+
+
   
